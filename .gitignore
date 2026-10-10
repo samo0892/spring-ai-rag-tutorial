@@ -1,0 +1,23 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Lokale Umgebungsvariablen (enthalten z. B. den OpenAI API Key)
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# Betriebssystem
+.DS_Store
+
+# Claude Code (lokale Worktrees)
+.claude/
